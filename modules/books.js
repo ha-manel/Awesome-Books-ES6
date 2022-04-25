@@ -24,9 +24,11 @@ export default class BookCollection {
     booksDiv.innerHTML = '';
     this.booksArray.forEach((book, id) => {
       booksDiv.innerHTML += `<div class="book-container"><div class="book-info"><p class="display-title">" ${book.title.charAt(0).toUpperCase() + book.title.slice(1)} "</p><p>by</p><p class="display-author">${book.author.charAt(0).toUpperCase() + book.author.slice(1)}</p></div><button id="${id}" class="remove-btn">Remove</button></div>`;
-      const removeBtn = document.getElementById(`${id}`);
-      removeBtn.addEventListener('click', () => {
-        this.removeBook(id);
+    });
+    const removeBtn = document.querySelectorAll('.remove-btn');
+    removeBtn.forEach((btn, index) => {
+      btn.addEventListener('click', () => {
+        this.removeBook(index);
       });
     });
   }
