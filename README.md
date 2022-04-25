@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse-Awesome-Books
+# Microverse-Awesome-Books-ES6
 
 > This is a Microverse (@microverseinc) project which aims at creating a books library in which we can add/remove books, and view the available books.
 
