@@ -1,4 +1,5 @@
 import BookCollection from './modules/books.js';
+import { DateTime } from './modules/luxon.js';
 
 const booksCollection = new BookCollection();
 
@@ -71,3 +72,11 @@ navLinks.forEach((link) => {
     navBar.classList.remove('active');
   });
 });
+
+// Show date and time
+const dateTime = document.querySelector('#date-text');
+const clock = () => {
+  const currentDateTime = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+  dateTime.innerHTML = currentDateTime;
+};
+setInterval(clock, 1000);
