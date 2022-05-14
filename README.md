@@ -11,6 +11,7 @@ Build a books library using:
 - HTML5 and CSS3 along with best practices.
 - Linters (Lighthouse, Webhint, Stylelint, Eslint).
 - JavaScript (ES6).
+- Luxon library.
 
 ## Built With
 
@@ -18,6 +19,7 @@ Build a books library using:
 - CSS3
 - JavaScript (ES6)
 - Linters (Lighthouse, Webhint, Stylelint, Eslint)
+- Luxon library
 
 ## Live Demo
 
