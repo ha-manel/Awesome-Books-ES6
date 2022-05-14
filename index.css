@@ -43,6 +43,10 @@ header {
   cursor: pointer;
 }
 
+#nav-links li.active {
+  border-bottom: 2px solid #000;
+}
+
 .date-time {
   position: absolute;
   top: 80px;
@@ -158,6 +162,11 @@ footer {
 .display-section {
   display: block;
   margin-top: 60px;
+}
+
+.display-title,
+.display-author {
+  text-transform: capitalize;
 }
 
 @media screen and (max-width: 750px) {
