@@ -23,7 +23,7 @@ Build a books library using:
 
 ## Live Demo
 
-Check out the **live demo** [here.](https://ha-manel.github.io/Microverse-Awesome-Books-ES6/)
+Check out the **live demo** [here.](https://ha-manel.github.io/Awesome-Books-ES6/)
 
 ## Getting Started
 
